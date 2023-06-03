@@ -6,6 +6,5 @@ import naive from 'naive-ui'
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 const app=createApp(App)
-    app.use(store).use(router).mount('#app')
-    app.use(naive).use(ElementPlus)
-
+    app.use(router).mount('#app')
+    app.use(naive).use(ElementPlus).use(store)

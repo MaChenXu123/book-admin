@@ -88,22 +88,11 @@ const menuOptions = [
                 key: "NewBookList"
             }, {
                 label: "推荐好书",
-                key:""
+                key:"TjBookList"
             }
         ]
     },
-    {
-        label: "1973年的弹珠玩具",
-        key: "pinball-1973",
-        icon: renderIcon(BookIcon),
-        disabled: true,
-        children: [
-            {
-                label: "鼠",
-                key: "rat"
-            }
-        ]
-    },
+
     {
         label: "个人信息",
         key: "PersonDetails",
